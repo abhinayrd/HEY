@@ -7,6 +7,7 @@ class javexample{
   int res = 0;
   for(int i = 0 ; i < n ; i++){
    arr[i] = sc.nextInt();
+   if(i == 0) res = arr[i];
    res = Math.max(res, arr[i]);
   }
   System.out.println(res);
